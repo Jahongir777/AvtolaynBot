@@ -6,6 +6,9 @@
   "scripts": {
     "start": "micro-bot"
   },
+  "engines": {
+    "node": "v14.17.3"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Jahongir777/Avtolayn.git"
@@ -17,6 +20,8 @@
   },
   "homepage": "https://github.com/Jahongir777/Avtolayn#readme",
   "dependencies": {
+    "compression": "^1.7.4",
+    "helmet": "^4.6.0",
     "micro-bot": "^2.5.3",
     "telegraf": "^4.4.1"
   }
