@@ -269,7 +269,7 @@ Trade-In datsurida ikkita kelishuv amalga oshiriladi:
 //damas
 bot.hears('DAMAS - 2', async (ctx) => {
   return await ctx.reply(`O'zingiz hohlagan rangdagi avtomabilni tanlang`, Markup.keyboard([
-      ['⚪️ Damas-2 Oq', '⚫️ Damas-2 Qora', '🔵 Damas-2 Ko\'k'],
+      ['⚪️ Damas-2 Oq'],
       ['🔝 ORQAGA QAYTISH']
     ])
     .resize()
@@ -298,52 +298,6 @@ bot.hears('⚪️ Damas-2 Oq', async (ctx) => {
   <a href="https://t.me/Avtolayn">Telegram</a> | <a href="https://www.youtube.com/channel/UCUAa-UaZzIeOOPOBi7xk_6Q">YouTube</a> | <a href="https://instagram.com/avtolaynuz">Instagram</a>
     `, parse_mode: 'html' })
 })
-
-bot.hears('⚫️ Damas-2 Qora', async (ctx) => {
-  return await ctx.replyWithPhoto(
-    {source: './img/damas-2/oqdamas-2.png'}, 
-    {caption: `
-    
-  <b>DAMAS - 2</b>
-
- 🔹 <b>Shahar:</b> Urganch
- 🔹 <b>Yukxona sig'imi (L):</b> 450 L
- 🔹 <b>Uzatish qutisi:</b> MT5
- 🔹 <b>Xavfsizlik:</b> -
- 🔹 <b>Yonilg'i iste'moli:</b> 7,8 / 8,6 L
- 🔹 <b>Xavfsizlik yostiqchalari:</b> -
-
- <a href="https://avtolayn.uz/ru/cars/43">Batafsil ma'lumot uchun...</a>
-
- 👇👇👇 Bizni quyidagi ijtimoiy tarmoqlar orqali kuzatib boring 
-
-  <a href="https://t.me/Avtolayn">Telegram</a> | <a href="https://www.youtube.com/channel/UCUAa-UaZzIeOOPOBi7xk_6Q">YouTube</a> | <a href="https://instagram.com/avtolaynuz">Instagram</a>
-    `, parse_mode: 'html' })
-})
-
-
-bot.hears('🔵 Damas-2 Ko\'k', async (ctx) => {
-  return await ctx.replyWithPhoto(
-    {source: './img/damas-2/oqdamas-2.png'}, 
-    {caption: `
-    
-  <b>DAMAS - 2</b>
-
- 🔹 <b>Shahar:</b> Urganch
- 🔹 <b>Yukxona sig'imi (L):</b> 450 L
- 🔹 <b>Uzatish qutisi:</b> MT5
- 🔹 <b>Xavfsizlik:</b> -
- 🔹 <b>Yonilg'i iste'moli:</b> 7,8 / 8,6 L
- 🔹 <b>Xavfsizlik yostiqchalari:</b> -
-
- <a href="https://avtolayn.uz/ru/cars/43">Batafsil ma'lumot uchun...</a>
-
- 👇👇👇 Bizni quyidagi ijtimoiy tarmoqlar orqali kuzatib boring 
-
-  <a href="https://t.me/Avtolayn">Telegram</a> | <a href="https://www.youtube.com/channel/UCUAa-UaZzIeOOPOBi7xk_6Q">YouTube</a> | <a href="https://instagram.com/avtolaynuz">Instagram</a>
-    `, parse_mode: 'html' })
-})
-
 
 //damas
 
