@@ -16,7 +16,7 @@ bot.command('start', async (ctx) => {
         ['🚘 Avtolayn haqida', '🚙 Avtomabillar'],
         ['👩‍💻 Online avtomabil harid qilish'],
         ['♻️ Trade-In','🚖 1080 Avtolayn', '🔧 Servis hizmatlari'],
-         ['☎️ Aloqa']
+         ['☎️ Aloqa', '📍 Location']
       ])
       .resize()
     )
