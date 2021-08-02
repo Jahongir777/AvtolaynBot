@@ -23,7 +23,7 @@ bot.command('start', async (ctx) => {
   });
 
   bot.hears('📍 Location', async (ctx) => {
-    ctx.telegram.sendLocation(41.56044515274724, 60.607803062078204)
+    ctx.sendLocation(41.56044515274724, 60.607803062078204)
   })
 
 //ctx.chat.id,
