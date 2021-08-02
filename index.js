@@ -23,10 +23,12 @@ bot.command('start', async (ctx) => {
   });
 
   bot.hears('📍 Location', async (ctx) => {
-    ctx.telegram.sendLocation(ctx.chat.id, 41.56044515274724, 60.607803062078204)
+    ctx.telegram.sendLocation(41.56044515274724, 60.607803062078204)
   })
 
-  bot.hears('🚖 1080 Avtolayn', async (ctx) => {
+//ctx.chat.id,
+  
+bot.hears('🚖 1080 Avtolayn', async (ctx) => {
     return await ctx.replyWithPhoto({source: `./img/1080.jpg`}, {caption: `🏁🏁🏁 1080 qisqa raqamini tering yoki ilova orqali taksi buyurtma qiling!!!
     
     📲 Ilovani yuklab olish uchun pastdagi yuklab olish tugmasini bosing
