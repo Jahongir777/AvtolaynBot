@@ -4,7 +4,6 @@ const { Composer } = require('micro-bot')
 const { Markup } = require('telegraf');
 
 
-// const token = "1909697460:AAFzn_C9FnovfxTZKpmSBlMzGO0SeIQXXQ0";
 const bot = new Composer()
 
 //const bot = new Telegraf(token);
